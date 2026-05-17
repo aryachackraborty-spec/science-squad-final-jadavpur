@@ -37,10 +37,8 @@ export function Navbar() {
       )}
     >
       <div className="w-full flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
-           <div className="w-10 h-10 bg-gradient-to-br from-blue-600 via-teal-500 to-purple-500 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-blue-200/50 group-hover:scale-105 transition-transform">
-             S
-           </div>
+        <Link to="/" className="flex items-center gap-3 group">
+           <img src="/logo.svg" alt="Science Squad Logo" className="h-12 w-auto group-hover:scale-105 transition-transform" />
            <div>
              <span className="font-bold text-xl tracking-tight text-slate-800">
                Science Squad<span className="text-blue-600">.</span>
