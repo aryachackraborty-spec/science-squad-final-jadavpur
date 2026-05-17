@@ -8,12 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 via-teal-500 to-purple-500 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-blue-200/50 group-hover:scale-105 transition-transform">
-                S
-              </div>
+              <img src="/logo.svg" alt="Science Squad logo" className="w-10 h-10 object-contain group-hover:scale-105 transition-transform" />
               <div>
                 <span className="font-bold text-xl tracking-tight text-slate-800">
-                  Science Squad<span className="text-blue-600">.</span>
+                  Science Squad – Jadavpur Head Office
                 </span>
                 <p className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Institute</p>
               </div>
@@ -71,18 +69,18 @@ export function Footer() {
                <div className="h-px bg-slate-200 flex-1 ml-2"></div>
             </h3>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <span className="text-sm text-slate-500">9433249032</span>
+                <span className="text-sm text-slate-500">8481842879</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <span className="text-sm text-slate-500">sciencesquad@gmail.com</span>
+                <span className="text-sm text-slate-500">science.squad.kolkata@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <a href="https://share.google/wyGIkosprH5gVsl0f" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-blue-600 transition-colors">
-                  32, Ramkrishna Para, Monoharpur, Gobra,<br/>Dankuni, West Bengal - 712311
+                <a href="https://maps.google.com/maps?q=2F,+29/A,+Raja+SC+Mullick+Rd,+Ananda+Pally,+Bapuji+Nagar,+Jadavpur,+Kolkata,+West+Bengal+700032" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-blue-600 transition-colors">
+                  2F, 29/A, Raja SC Mullick Rd,<br/>Ananda Pally, Bapuji Nagar,<br/>Jadavpur, Kolkata, West Bengal 700032
                 </a>
               </li>
             </ul>

@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 export function FloatingCTA() {
   return (
     <motion.a
-      href="https://wa.me/919433249032"
+      href="https://wa.me/918481842879"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}

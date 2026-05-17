@@ -3,21 +3,21 @@ import { MapPin, Phone, MessageCircle, Navigation, Clock } from 'lucide-react';
 
 const branches = [
   {
-    name: "Science Squad Dankuni",
+    name: "Science Squad – Jadavpur Branch",
+    address: "2F, 29/A, Raja SC Mullick Rd, Ananda Pally, Bapuji Nagar, Jadavpur, Kolkata, West Bengal 700032",
+    phone: "8481842879",
+    whatsapp: "8481842879",
+    mapLink: "https://share.google/xnNZmEhU8CSVyoC0p",
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000",
+    timing: "Mon - Sat: 9:00 AM - 8:00 PM"
+  },
+  {
+    name: "Science Squad – Dankuni Branch",
     address: "32, Ramkrishna Para, Monoharpur, Gobra, Dankuni, West Bengal - 712311",
     phone: "9433249032",
     whatsapp: "9433249032",
     mapLink: "https://share.google/wyGIkosprH5gVsl0f",
     image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000",
-    timing: "Mon - Sat: 9:00 AM - 8:00 PM"
-  },
-  {
-    name: "Science Squad Jadavpur",
-    address: "2F, 29/A, Raja SC Mullick Rd, Ananda Pally, Bapuji Nagar, Jadavpur, Kolkata, West Bengal 700032",
-    phone: "8481842879",
-    whatsapp: "7003344577",
-    mapLink: "https://share.google/xnNZmEhU8CSVyoC0p",
-    image: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000",
     timing: "Mon - Sat: 9:00 AM - 8:00 PM"
   }
 ];

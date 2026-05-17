@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Where are your branches located?",
-    answer: "Our primary branch is located at 32, Ramkrishna Para, Monoharpur, Gobra, Dankuni, West Bengal - 712311. It's equipped with modern amenities and experienced faculty."
+    answer: "Our head office is located at 2F, 29/A, Raja SC Mullick Rd, Ananda Pally, Bapuji Nagar, Jadavpur, Kolkata, West Bengal 700032. Our secondary branch is in Dankuni at 32, Ramkrishna Para, Monoharpur, Gobra."
   },
   {
     question: "Do you provide study materials?",
@@ -94,7 +94,7 @@ export function Contact() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const message = `*New Admission Enquiry*%0A%0A*Student Name:* ${formData.studentName}%0A*Parent Name:* ${formData.parentName}%0A*Phone:* ${formData.phone}%0A*Class:* ${formData.className}%0A*Interested Course:* ${formData.course}%0A%0A_Sent via Website_`;
-    window.open(`https://wa.me/919433249032?text=${message}`, '_blank');
+    window.open(`https://wa.me/918481842879?text=${message}`, '_blank');
   };
 
   return (
@@ -132,7 +132,7 @@ export function Contact() {
                </div>
                <div>
                  <p className="text-sm text-slate-400 font-medium mb-1">Call for Admissions</p>
-                 <a href="tel:9433249032" className="text-lg font-semibold hover:text-blue-400 transition-colors">9433249032</a>
+                 <a href="tel:8481842879" className="text-lg font-semibold hover:text-blue-400 transition-colors">8481842879</a>
                </div>
              </div>
 
@@ -142,7 +142,7 @@ export function Contact() {
                </div>
                <div>
                  <p className="text-sm text-slate-400 font-medium mb-1">WhatsApp Support</p>
-                 <a href="https://wa.me/919433249032" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold hover:text-green-400 transition-colors">+91 9433249032</a>
+                 <a href="https://wa.me/918481842879" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold hover:text-green-400 transition-colors">+91 8481842879</a>
                </div>
              </div>
 
@@ -152,7 +152,7 @@ export function Contact() {
                </div>
                <div>
                  <p className="text-sm text-slate-400 font-medium mb-1">Email Us</p>
-                 <a href="mailto:sciencesquad@gmail.com" className="text-lg font-semibold hover:text-pink-400 transition-colors break-all">sciencesquad@gmail.com</a>
+                 <a href="mailto:science.squad.kolkata@gmail.com" className="text-lg font-semibold hover:text-pink-400 transition-colors break-all">science.squad.kolkata@gmail.com</a>
                </div>
              </div>
 
@@ -161,12 +161,34 @@ export function Contact() {
                  <MapPin className="w-5 h-5 text-orange-400 group-hover:text-white transition-colors" />
                </div>
                <div>
-                 <p className="text-sm text-slate-400 font-medium mb-1">Head Office</p>
+                 <p className="text-sm text-slate-400 font-medium mb-1">Main Branch</p>
                  <p className="text-base font-medium text-slate-300 leading-relaxed">
-                   32, Ramkrishna Para, Monoharpur, Gobra,<br />Dankuni, West Bengal - 712311
+                   2F, 29/A, Raja SC Mullick Rd,<br />Ananda Pally, Bapuji Nagar,<br />Jadavpur, Kolkata,<br />West Bengal 700032
                  </p>
                </div>
              </div>
+
+             <div className="flex items-start gap-4 group">
+               <div className="w-12 h-12 rounded-full bg-slate-800/80 flex items-center justify-center shrink-0 group-hover:bg-slate-500 transition-colors">
+                 <MapPin className="w-5 h-5 text-slate-300 group-hover:text-white transition-colors" />
+               </div>
+               <div>
+                 <p className="text-sm text-slate-400 font-medium mb-1">Dankuni Branch</p>
+                 <p className="text-base font-medium text-slate-300 leading-relaxed">
+                   32, Ramkrishna Para, Monoharpur, Gobra,<br />Dankuni, West Bengal - 712311
+                 </p>
+                 <a href="tel:9433249032" className="text-lg font-semibold text-slate-100 hover:text-white transition-colors">9433249032</a>
+               </div>
+             </div>
+           </div>
+
+           <div className="mt-10 overflow-hidden rounded-[2rem] border border-white/20">
+             <iframe
+               src="https://maps.google.com/maps?q=2F%2C%2029%2FA%2C%20Raja%20SC%20Mullick%20Rd%2C%20Ananda%20Pally%2C%20Bapuji%20Nagar%2C%20Jadavpur%2C%20Kolkata%2C%20West%20Bengal%20700032&output=embed"
+               title="Science Squad Jadavpur Branch Location"
+               className="w-full h-64 border-0"
+               loading="lazy"
+             />
            </div>
 
            {/* Decorative elements */}

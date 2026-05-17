@@ -221,7 +221,7 @@ export function About() {
         <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to Shape the Future?</h2>
         <p className="text-slate-300 mb-8 max-w-2xl mx-auto text-lg">Join us to experience a revolutionary way of learning.</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="tel:9433249032" className="px-8 py-4 rounded-full bg-white text-slate-900 font-bold text-lg hover:bg-slate-50 transition-colors">
+          <a href="tel:8481842879" className="px-8 py-4 rounded-full bg-white text-slate-900 font-bold text-lg hover:bg-slate-50 transition-colors">
             Talk to Our Experts
           </a>
           <Link to="/contact" className="px-8 py-4 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 text-white font-bold text-lg hover:shadow-lg hover:shadow-orange-500/30 transition-all flex items-center gap-2">

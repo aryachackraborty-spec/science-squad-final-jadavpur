@@ -219,7 +219,7 @@ function CourseCard({ course, category, idx }: { course: any, category: any, idx
             <Link to="/contact" className="col-span-2 sm:col-span-1 px-4 py-3 rounded-xl bg-slate-900 text-white font-semibold text-sm hover:bg-blue-600 transition-colors text-center shadow-lg hover:shadow-blue-500/30 w-full pointer-events-auto">
               Enroll Now
             </Link>
-            <a href="https://wa.me/919433249032" target="_blank" rel="noopener noreferrer" className="col-span-2 sm:col-span-1 px-4 py-3 rounded-xl bg-[#25D366]/10 text-[#25D366] font-semibold text-sm hover:bg-[#25D366] hover:text-white transition-colors text-center flex items-center justify-center gap-1 w-full pointer-events-auto">
+            <a href="https://wa.me/918481842879" target="_blank" rel="noopener noreferrer" className="col-span-2 sm:col-span-1 px-4 py-3 rounded-xl bg-[#25D366]/10 text-[#25D366] font-semibold text-sm hover:bg-[#25D366] hover:text-white transition-colors text-center flex items-center justify-center gap-1 w-full pointer-events-auto">
               WhatsApp <ArrowRight className="w-4 h-4 mt-px" />
             </a>
           </div>

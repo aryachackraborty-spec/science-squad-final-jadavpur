@@ -229,13 +229,13 @@ export function Home() {
                 className="flex flex-col sm:flex-row items-center gap-4"
               >
                 <Magnetic>
-                  <a href="tel:9433249032" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl shadow-slate-200">
+                  <a href="tel:8481842879" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl shadow-slate-200">
                     <span>Call Now</span>
                     <Phone className="w-5 h-5" />
                   </a>
                 </Magnetic>
                 <Magnetic>
-                  <a href="https://wa.me/919433249032" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white border border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-colors shadow-sm">
+                  <a href="https://wa.me/918481842879" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white border border-slate-200 text-slate-700 px-8 py-4 rounded-2xl font-bold hover:bg-slate-50 transition-colors shadow-sm">
                     <MessageCircle className="w-5 h-5 text-teal-600" />
                     <span>WhatsApp Now</span>
                   </a>
@@ -439,7 +439,7 @@ export function Home() {
             <Link to="/contact" className="px-8 py-4 rounded-full flex items-center justify-center bg-white text-blue-700 font-bold text-xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all">
               Enroll Today
             </Link>
-            <a href="tel:9433249032" className="px-8 py-4 rounded-full flex items-center justify-center bg-orange-500 text-white font-bold text-xl shadow-xl hover:shadow-2xl hover:bg-orange-400 hover:-translate-y-1 transition-all">
+            <a href="tel:8481842879" className="px-8 py-4 rounded-full flex items-center justify-center bg-orange-500 text-white font-bold text-xl shadow-xl hover:shadow-2xl hover:bg-orange-400 hover:-translate-y-1 transition-all">
               Call Now
             </a>
           </div>
